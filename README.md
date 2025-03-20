@@ -47,8 +47,7 @@ The project uses XLM-RoBERTa, a powerful cross-lingual transformer model, fine-t
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/hinglish-sentiment-analysis.git
-cd hinglish-sentiment-analysis
+git clone https://github.com/AmeenKhan12345/Sentiment_Analysis_of_Code-Mixed-Hinglish-Text.git
 ```
 
 ### Install Dependencies
@@ -61,7 +60,7 @@ pip install -r requirements.txt
 ### Running the Dashboard
 Launch the Streamlit app with:
 ```bash
-streamlit run stream3.py
+streamlit run app.py
 ```
 
 ### Dashboard Features
