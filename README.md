@@ -123,7 +123,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-- Special thanks to contributors and researchers in this project, [Mr. Pawan Hete](https://github.com/PawanHete)
+- Special thanks to contributors and researchers in this project, [Mr. Pawan Hete](https://github.com/PawanHete) and [Pradyumn Waghmare](https://github.com/Xtrmcoder)
 - Thanks to the developers of [Transformers](https://github.com/huggingface/transformers), [Streamlit](https://streamlit.io/), and other open-source tools used in this project.
 
 ## Contributing
