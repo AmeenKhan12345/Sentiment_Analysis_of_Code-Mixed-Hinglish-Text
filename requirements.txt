@@ -1,0 +1,9 @@
+streamlit
+torch
+numpy
+pandas
+matplotlib
+plotly
+transformers
+lime
+wordcloud
