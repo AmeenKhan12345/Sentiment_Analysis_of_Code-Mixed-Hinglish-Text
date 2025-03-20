@@ -259,10 +259,10 @@ def load_model_and_tokenizer(model_path):
     return tokenizer, model, device
 
 # Set your saved model path (update as needed)
-MODEL_PATH = "C:\\Users\\ASUS\\Downloads\\PBL2\\New\\fine_tuned_xlm_roberta99"
+MODEL_ID = "AmeenKhan/Sentiment-Analysis-Code-Mixed-Hinglish-Text"  
 
 # Load model, tokenizer, and device
-tokenizer, model, device = load_model_and_tokenizer(MODEL_PATH)
+tokenizer, model, device = load_model_and_tokenizer(MODEL_ID)
 
 # Define sentiment classes
 sentiment_mapping = {0: "Negative", 1: "Neutral", 2: "Positive"}
@@ -421,7 +421,7 @@ def save_feedback(input_text, predicted_sentiment, corrected_sentiment, timestam
 explainer = LimeTextExplainer(class_names=class_names)
 
 # Load tweet data
-tweet_data_path = "C:\\Users\\ASUS\\Downloads\\PBL2\\New\\emotions_tweets.csv"
+tweet_data_path = "emotions_tweets.csv"
 tweet_df = load_tweet_data(tweet_data_path)
 
 # Sidebar for global settings and filters
