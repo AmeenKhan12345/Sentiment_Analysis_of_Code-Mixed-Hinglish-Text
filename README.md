@@ -55,6 +55,23 @@ git clone https://github.com/AmeenKhan12345/Sentiment_Analysis_of_Code-Mixed-Hin
 pip install -r requirements.txt
 ```
 
+## Model Setup
+
+The fine-tuned model used in this project is hosted on the Hugging Face Model Hub. It can be automatically downloaded when you run the app.
+
+1. Create a Hugging Face account if you haven't already.
+2. Clone this repository.
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+4. The model is loaded using the repository ID:
+   ```bash
+   MODEL_ID = "AmeenKhan/Sentiment-Analysis-Code-Mixed-Hinglish-Text"
+   tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
+   model = AutoModelForSequenceClassification.from_pretrained(MODEL_ID)
+For more details on hosting models, refer to the Hugging Face documentation.
+By following these steps, you ensure your GitHub repository remains lightweight, and users can download the large model from the Hugging Face Model Hub when they run your project. Let me know if you need any further assistance!
+
 ## Usage
 
 ### Running the Dashboard
