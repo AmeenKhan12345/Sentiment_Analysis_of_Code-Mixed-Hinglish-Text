@@ -2,8 +2,6 @@
 
 This project is a comprehensive Sentiment Analysis Dashboard designed for code-mixed Hinglish (Hindi-English) text. It leverages a fine-tuned XLM-RoBERTa model to classify text into three sentiment categories: Negative, Neutral, and Positive. The interactive dashboard, built using Streamlit, allows users to analyze single texts with explainability (via LIME), view simulated live tweet sentiment trends, and provide feedback to continuously improve the model.
 
-![Hinglish Sentiment Analysis Dashboard](https://via.placeholder.com/800x400?text=Hinglish+Sentiment+Analysis+Dashboard)
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -126,8 +124,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
+- Special thanks to contributors and researchers in this project, [Mr. Pawan Hete](https://github.com/PawanHete)
 - Thanks to the developers of [Transformers](https://github.com/huggingface/transformers), [Streamlit](https://streamlit.io/), and other open-source tools used in this project.
-- Special thanks to contributors and researchers in the field of sentiment analysis and NLP.
 
 ## Contributing
 
@@ -135,4 +133,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
 
-For questions or feedback, please open an issue in the GitHub repository or contact [your-email@example.com].
+For questions or feedback, please open an issue in the GitHub repository.
