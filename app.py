@@ -445,7 +445,7 @@ with tab1:
     st.write("Enter text for sentiment prediction and see a LIME explanation below.")
     
     # Text input and analysis
-    user_input = st.text_area("Input Text", "Ye product bahot bekar hai", height=100)
+    user_input = st.text_area("Input Text", "Your Text", height=100)
     
     col1, col2 = st.columns([1, 3])
     with col1:
