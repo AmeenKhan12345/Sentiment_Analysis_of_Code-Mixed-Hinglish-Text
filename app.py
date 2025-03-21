@@ -17,7 +17,7 @@ st.set_page_config(
     page_title="Sentiment Analysis Dashboard",
     page_icon="😀",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="collapsed"
 )
 
 # Enhanced CSS for a more professional look
@@ -248,7 +248,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Function to load model and tokenizer - used by both tabs
-@st.cache_resource
+
 def load_model_and_tokenizer(model_path):
     """Load and cache the model and tokenizer to avoid reloading"""
     tokenizer = AutoTokenizer.from_pretrained(model_path)
@@ -297,7 +297,6 @@ def predict_proba(texts):
     return probs.cpu().numpy()
 
 # Function to load and prepare tweet data
-@st.cache_data
 def load_tweet_data(file_path):
     """Load and prepare tweet data with cache to avoid reloading"""
     try:
@@ -431,7 +430,7 @@ with st.sidebar:
     
     # Word Cloud Options
     st.header("Word Cloud Options")
-    query_wc = st.text_input("Enter keyword for Word Cloud", "Hinglish")
+    query_wc = st.text_input("Enter keyword for Word Cloud", "War")
     sentiment_option = st.selectbox("Select Sentiment for Word Cloud", 
                                   options=["All", "Negative", "Neutral", "Positive"])
     
