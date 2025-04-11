@@ -247,6 +247,9 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+# Load model/tokenizer (do this only once at the top)
+@st.cache_resource
+
 # Function to load model and tokenizer - used by both tabs
 
 def load_model_and_tokenizer(model_path):
